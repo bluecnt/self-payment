@@ -18,10 +18,10 @@ public class SplashPageParams {
 		public void onCompleteResources(Object param);
 	}
 
-	public final static String DEFAULT_DB_HOST = "192.168.0.64";
+	public final static String DEFAULT_DB_HOST = "localhost";
 	public final static int DEFAULT_DB_PORT = 1521;
-	public final static String DEFAULT_DB_ID = "hr";
-	public final static String DEFAULT_DB_PW = "1234";
+	public final static String DEFAULT_DB_ID = "selfpay";
+	public final static String DEFAULT_DB_PW = "selfpay";
 
 	private Listener mListener = null;
 	private Object mParam = null;
